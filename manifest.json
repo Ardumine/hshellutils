@@ -1,0 +1,32 @@
+{
+  "name": "HCore.Packages.HShellUtils",
+  "version": "1.0.0",
+  "description": "Core shell utilities — hashing, encoding, text processing, file inspection",
+  "commands": [
+    { "name": "sha256",    "description": "sha256 <file>           Compute SHA-256 hash",                    "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "sha256sum", "description": "sha256sum <file>        Compute SHA-256 hash (alias)",            "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "sha512",    "description": "sha512 <file>           Compute SHA-512 hash",                    "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "sha512sum", "description": "sha512sum <file>        Compute SHA-512 hash (alias)",            "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "sha1",      "description": "sha1 <file>             Compute SHA-1 hash",                      "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "sha1sum",   "description": "sha1sum <file>          Compute SHA-1 hash (alias)",              "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "md5",       "description": "md5 <file>              Compute MD5 hash",                        "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "md5sum",    "description": "md5sum <file>           Compute MD5 hash (alias)",                "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "base64",    "description": "base64 encode|decode [input]   Base64 encode or decode",         "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "hexdump",   "description": "hexdump <file>          Hex dump with ASCII gutter",             "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "xxd",       "description": "xxd <file>              Hex dump (alias)",                       "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "hd",        "description": "hd <file>               Hex dump (alias)",                       "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "wc",        "description": "wc <file>               Line, word, and byte count",             "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "head",      "description": "head <file> [-n N]      First N lines (default 10)",             "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "tail",      "description": "tail <file> [-n N]      Last N lines (default 10)",              "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "grep",      "description": "grep [-i] [-v] <pattern> <file>   Search file with regex",       "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "sort",      "description": "sort [-r] [-u] <file>   Sort lines (-r reverse, -u unique)",     "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "uniq",      "description": "uniq <file>             Remove adjacent duplicate lines",         "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "date",      "description": "date                    Print current date and time (ISO 8601)", "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "env",       "description": "env                     Print environment variables",             "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "which",     "description": "which <command>         Show command source (builtin or pack)",  "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "clear",     "description": "clear                   Clear the terminal",                      "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "cls",       "description": "cls                     Clear the terminal (alias)",              "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "exists",    "description": "exists <path>           Print true if path exists",               "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" },
+    { "name": "test",      "description": "test <path>             Print true if path exists (alias)",       "mode": "oneshot", "moduleName": "HCore.Packages.HShellUtils.Util" }
+  ]
+}
